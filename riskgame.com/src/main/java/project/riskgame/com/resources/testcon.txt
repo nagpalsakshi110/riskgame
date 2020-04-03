@@ -1,0 +1,16 @@
+name testcon.txt
+
+[Map]
+
+[Continents]
+A=5
+B=6
+C=7
+
+[Territories]
+a,,,A,b
+
+b,,,B,a,c
+
+c,,,C,b
+

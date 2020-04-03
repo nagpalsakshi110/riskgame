@@ -1,0 +1,24 @@
+Cards cards = Cards.getInstance();
+		cards.cardDeck.add("artillery");
+		cards.cardDeck.add("infantry");
+		cards.cardDeck.add("cavalry");
+		Player player = new Player();
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("artillery");
+		list.add("artillery");
+		list.add("artillery");
+	
+		player.setCards(list);
+		GamePlayController gm = new GamePlayController();
+		int  num = gm.getArmiesFromExchange(player, 0, 1, 2);
+		list.add("artillery");
+		list.add("infantry");
+		list.add("cavalry");
+		player.setCards(list);
+		num = gm.getArmiesFromExchange(player, 0, 1, 2);
+		
+		list.add("artillery");
+		list.add("infantry");
+		list.add("infantry");
+		player.setCards(list);
+		num = gm.getArmiesFromExchange(player, 0, 1, 2);

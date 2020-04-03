@@ -1,0 +1,10 @@
+
+todo in attack
+1. add the winning condition for the game -- done
+2. remove the player from the player list if he has lost all the armies
+ 	a. transfer all the cards from the loser to winner -TODO
+3. add validation to attack, defend & attackmove for execution -- done
+4. add \n on attack move message --done
+5. player name to be displayed on second reinforce phase
+6. set message that current player fortification has ended when fortify none is executed 
+7. remove the continent ownership beginbattle

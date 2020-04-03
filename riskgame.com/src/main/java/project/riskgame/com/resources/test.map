@@ -1,0 +1,44 @@
+name test.map
+
+[files]
+
+[continents]
+Asia 4
+Africa 8
+Europe 9
+
+[countries]
+1 Alaska 1 0 0
+2 Alberta 1 0 0
+3 Ontario 1 0 0
+4 Montreal 1 0 0
+5 Iceland 1 0 0
+6 Peru 2 0 0
+7 Brazil 2 0 0
+8 Ukraine 2 0 0
+9 China 2 0 0
+10 Russia 2 0 0
+11 India 2 0 0
+12 Japan 3 0 0
+13 Indonesia 3 0 0
+14 Siam 3 0 0
+15 Egypt 3 0 0
+16 Pakistan 3 0 0
+
+[borders]
+1 2 3
+2 1 4
+3 1 6 5
+4 2 6
+5 7 3
+6 4 3 8
+7 10 9 5
+8 6 10 11
+9 11 7
+10 8 12 7
+11 8 13 9
+12 10 14 15
+13 15 11
+14 12 16
+15 12 16 13
+16 14 15

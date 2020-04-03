@@ -1,0 +1,21 @@
+name b2118.map
+
+[files]
+
+[continents]
+c 5
+d 5
+
+[countries]
+1 c1 1 0 0
+2 c2 1 0 0
+3 c3 1 0 0
+4 c4 1 0 0
+5 d1 2 0 0
+
+[borders]
+1 2
+2 1 4
+3 4
+4 3 2 5
+5 4

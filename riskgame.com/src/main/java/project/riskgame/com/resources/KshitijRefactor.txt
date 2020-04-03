@@ -1,0 +1,5 @@
+Rename: view>GuiCommandValidation>validateCommand --> view>GuiCommandValidation>checkEditorCommand
+
+Validation Command methods moved from MapEditorFrame to GuiCommandValidation
+
+Added method overloading in showError() in MapEditorFrame
